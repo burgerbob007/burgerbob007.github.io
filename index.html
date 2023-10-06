@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="stylesheets/hero.css" />
+    <link rel="stylesheet" href="stylesheets/about.css" />
+    <link rel="stylesheet" href="stylesheets/staff.css" />
+    <link rel="stylesheet" href="stylesheets/staff-panel.css" />
+    <link rel="stylesheet" href="stylesheets/gallery.css" />
+    <link rel="stylesheet" href="stylesheets/register.css" />
+    <link rel="stylesheet" href="stylesheets/footer.css" />
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Carmalex</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+  </head>
+  <body>
+    <header class="header-main">
+      <div class="header-logo">
+        <a href="index.html">CARMALEX</a>
+      </div>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#About">About Us</a></li>
+          <li><a href="#Staff">Staff</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Contact">Contacts</a></li>
+        </ul>
+      </nav>
+      <div class="header-socmed">
+        <button>JOIN NOW</button>
+      </div>
+    </header>
+    <main>
+      <div class="video-container">
+        <video autoplay loop muted src="vid/hero-vid.mp4" class="video"></video>
+        <h3>
+          "isang bilog pa..."<br />
+          -Anonymous
+        </h3>
+      </div>
+      <div class="slogan">
+        <h1>
+          Welcome<br />
+          to<br />
+          Carmalex
+        </h1>
+      </div>
+    </main>
+    <div class="wrapper">
+      <section class="about" id="About">
+        <h2>What is Carmalex?</h2>
+        <div class="about-flex">
+          <div class="about-image-container">
+            <a href="img/about-img-1.jpg" target="_blank">
+              <img src="img/about-img-1.jpg" alt="jug" />
+            </a>
+            <!-- <a href="img/about-img-2.jpg" target="_blank">
+              <img src="img/about-img-2.jpg" alt="car" />
+            </a> -->
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, id
+            ipsa! Perferendis accusantium libero id distinctio consectetur earum
+            saepe iure, quae, praesentium, laudantium et.
+          </p>
+        </div>
+      </section>
+
+      <section class="staff" id="Staff">
+        <h2>Staff</h2>
+        <div class="staff-flex">
+          <p>
+            <font color="#5F24FF">Meet the Staff.</font><br />
+            Choose a staff name to <br />view their bios and skills.
+          </p>
+          <div class="staff-panel">
+            <span class="staff-image-container">
+              <!-- <img src="img\staff\ced.jpg" alt="ced" class="ced-image" /> -->
+              <!-- <img
+                src="img\staff\sample.png"
+                id="placeholder-image"
+                style="display: none"
+              /> -->
+              <img
+                src="img/staff/ced.jpg"
+                id="ced-image"
+                style="display: none"
+              />
+              <img
+                src="img/staff/reioms.png"
+                id="reioms-image"
+                style="display: none"
+              />
+              <img
+                src="img/staff/iii.png"
+                id="iii-image"
+                style="display: none"
+              />
+              <img
+                src="img/staff/shelbz.png"
+                id="shelbz-image"
+                style="display: none"
+              />
+              <img
+                src="img/staff/hanzo.png"
+                id="hanzo-image"
+                style="display: none"
+              />
+              <img
+                src="img/staff/ellioti.jpg"
+                id="ellioti-image"
+                style="display: none"
+              />
+            </span>
+            <span class="staff-bio">
+              <div><h4 id="staff-name">Name</h4></div>
+              <div><h4 id="staff-age">Age</h4></div>
+              <div><h4 id="staff-position">Position</h4></div>
+              <div><h4 id="staff-skills">Skills</h4></div>
+            </span>
+            <button id="panel-close-btn">CLOSE</button>
+          </div>
+          <div class="staff-container">
+            <ul>
+              <li><a id="iii">III</a></li>
+              <li><a id="shelbz">Shelbz</a></li>
+              <li><a id="hanzo">Hanzo</a></li>
+              <li><a id="ellioti">Ellioti</a></li>
+              <li><a id="reioms">Reioms</a></li>
+              <li><a id="ced">Ced</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="Gallery">
+        <h2>Gallery</h2>
+        <p>
+          Check out the moments from Carmalex over the years. You too can be a
+          part of our family!@!
+        </p>
+        <span class="gallery-grid">
+          <div class="gallery-img img-8">
+            <div><a href="#">Click to Expand</a></div>
+          </div>
+          <div class="gallery-img img-1">
+            <div><a href="#">Click to Expand</a></div>
+          </div>
+          <div class="gallery-img img-2">
+            <div><a href="#">Click to Expand</a></div>
+          </div>
+          <div class="gallery-img img-3">
+            <div><a href="#">Click to Expand</a></div>
+          </div>
+          <div class="gallery-img img-4">
+            <div><a href="#">Click to Expand</a></div>
+          </div>
+          <div class="gallery-img img-5">
+            <div><a href="#">Click to Expand</a></div>
+          </div>
+          <!-- <div class="gallery-img img-6">
+            <div><a href="#">Click to Expand</a></div>
+          </div> -->
+        </span>
+      </section>
+      <section class="register">
+        <p>
+          Be a part of our family! Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Minima deserunt, nemo veritatis iste, sit maxime
+          repellat, fugiat eos recusandae id cum sint iure alias rem dolorem
+          consectetur doloremque expedita est.
+        </p>
+        <div class="header-socmed">
+          <button>REGISTER NOW!!</button>
+        </div>
+      </section>
+      <footer class="contact" id="Contact">
+        <h2>Contacts</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, quidem
+          illum impedit sunt accusamus sapiente
+        </p>
+        <div class="soc-med-logos">
+          <a href="facebook.com" target="_blank">
+            <img src="img/soc-med logo/fb.png" alt="facebook" id="sm-logo" />
+          </a>
+          <a href="instagram.com" target="_blank">
+            <img src="img/soc-med logo/ig.png" alt="facebook" id="sm-logo" />
+          </a>
+          <a
+            href="https://www.w3schools.com/css/css3_flexbox_container.asp"
+            target="_blank"
+          >
+            <img
+              src="img/soc-med logo/youtube.png"
+              alt="facebook"
+              id="sm-logo"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src="staff.js"></script>
+    <script src="gallery.js"></script>
+  </body>
+</html>
