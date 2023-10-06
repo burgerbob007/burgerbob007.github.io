@@ -1,0 +1,45 @@
+.about{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 40px;
+    border-bottom: solid 3px rgb(214, 40, 188);
+}
+
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.about p{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 40px;
+    color: azure;
+    /* background-color: red; */
+    width: 5in;
+    margin-top: 80px;
+    margin-right: 40px;
+}
+
+.about-image-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px;
+    /* background-color: yellow; */
+    margin-left: 100px;
+}
+
+.about img{
+    width: 4in;
+    height: 4in;
+    /* border: 1px solid; */
+    /* padding: 10px; */
+    box-shadow: 3px 5px rgb(214, 40, 188);
+     
+}
