@@ -97,7 +97,7 @@ body{
 main{
     height: calc(100vh - 90px);
     /* background-color: aliceblue; */
-    background-image: url(img/banner-image.jpg);
+    background-image: url(../img/banner-image.jpg);
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
