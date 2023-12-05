@@ -137,8 +137,9 @@ main h1{
     width: 5in;
     height: 4in;
     background-color: #e8e4b577;
-    border-radius: 30px;
-    background-color: rgba(255, 55, 88, 0.369);
+    padding: 5px;
+    /* border-radius: 30px; */
+    /* background-color: rgba(255, 55, 88, 0.369); */
 }
 .video-container{
     display: flex;
