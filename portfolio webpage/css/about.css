@@ -21,7 +21,7 @@ text-align: center;
 .about-img{
     max-width: 350px;
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
     border: 2px solid #d8d8d8;
 }
 .about-img img{
